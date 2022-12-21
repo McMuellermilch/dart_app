@@ -15,16 +15,11 @@ struct EmptyModifier: ViewModifier {
     func body(content: Content) -> some View {
         Group {
             if isEmpty {
-                VStack {
-                    Text("No Players")
-                        .font(.largeTitle)
-                    Image("void_img")
-                      .resizable()
-                      .scaledToFit()
-                      .aspectRatio(contentMode: .fit)
-                      .padding(.horizontal, 100)
-                }
-                
+                Image("void_img")
+                  .resizable()
+                  .scaledToFit()
+                  .aspectRatio(contentMode: .fit)
+                  .padding(.horizontal, 100)
             } else {
                 content
             }

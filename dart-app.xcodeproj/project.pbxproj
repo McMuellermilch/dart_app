@@ -14,6 +14,8 @@
 		28900FF22953468B00080243 /* PlayerSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28900FF12953468B00080243 /* PlayerSelectionView.swift */; };
 		28900FF4295346E400080243 /* PlayerInList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28900FF3295346E400080243 /* PlayerInList.swift */; };
 		28900FF72953473F00080243 /* IsEmptyModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28900FF62953473F00080243 /* IsEmptyModifier.swift */; };
+		28900FF92953920C00080243 /* PlayerListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28900FF82953920C00080243 /* PlayerListView.swift */; };
+		28900FFB2953BCBD00080243 /* ClassicDartsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28900FFA2953BCBD00080243 /* ClassicDartsView.swift */; };
 		289BDC8E28843FBB00EFECC9 /* dart_appApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289BDC8D28843FBB00EFECC9 /* dart_appApp.swift */; };
 		289BDC9028843FBB00EFECC9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289BDC8F28843FBB00EFECC9 /* ContentView.swift */; };
 		289BDC9228843FBC00EFECC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 289BDC9128843FBC00EFECC9 /* Assets.xcassets */; };
@@ -32,6 +34,8 @@
 		28900FF12953468B00080243 /* PlayerSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerSelectionView.swift; sourceTree = "<group>"; };
 		28900FF3295346E400080243 /* PlayerInList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerInList.swift; sourceTree = "<group>"; };
 		28900FF62953473F00080243 /* IsEmptyModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsEmptyModifier.swift; sourceTree = "<group>"; };
+		28900FF82953920C00080243 /* PlayerListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerListView.swift; sourceTree = "<group>"; };
+		28900FFA2953BCBD00080243 /* ClassicDartsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassicDartsView.swift; sourceTree = "<group>"; };
 		289BDC8A28843FBB00EFECC9 /* dart-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "dart-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		289BDC8D28843FBB00EFECC9 /* dart_appApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dart_appApp.swift; sourceTree = "<group>"; };
 		289BDC8F28843FBB00EFECC9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -128,6 +132,8 @@
 				28900FEF2953463400080243 /* GameSelectionView.swift */,
 				289BDC9B2884401000EFECC9 /* HomeView.swift */,
 				28900FF12953468B00080243 /* PlayerSelectionView.swift */,
+				28900FF82953920C00080243 /* PlayerListView.swift */,
+				28900FFA2953BCBD00080243 /* ClassicDartsView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -204,7 +210,9 @@
 			files = (
 				28900FEC295341F100080243 /* PlayerModel.swift in Sources */,
 				289BDC9C2884401000EFECC9 /* HomeView.swift in Sources */,
+				28900FFB2953BCBD00080243 /* ClassicDartsView.swift in Sources */,
 				28900FF72953473F00080243 /* IsEmptyModifier.swift in Sources */,
+				28900FF92953920C00080243 /* PlayerListView.swift in Sources */,
 				289BDCA52885DF3500EFECC9 /* FriendModel.swift in Sources */,
 				28900FF02953463400080243 /* GameSelectionView.swift in Sources */,
 				28900FF22953468B00080243 /* PlayerSelectionView.swift in Sources */,

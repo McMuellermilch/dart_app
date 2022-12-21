@@ -15,14 +15,13 @@ class GameStateModel: ObservableObject {
     
     init() {
         self.games = MockData.games
-        self.selectedGame = MockData.games[0]
     }
     
     func checkIfEnoughPlayers() -> Bool {
         return players.count > 1 ? true : false
     }
     
-    func addPlayer(name: String, initialPoints: Int, level: Int) {
+    func addPlayer(name: String, initialPoints: Int) {
         players.append(PlayerModel(name: name, points: initialPoints))
     }
     

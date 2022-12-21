@@ -8,30 +8,48 @@
 import SwiftUI
 
 struct HomeView: View {
+    
     @EnvironmentObject var gameState: GameStateModel
+    @State var addPlayerSheetPresent: Bool = false
     
     @ViewBuilder
     var body: some View {
-        ZStack {
-            NavigationView {
-                ZStack {
-                    LinearGradient(gradient: Gradient(colors: [Color("EveningNightLight"), Color("EveningNightBlue")]),
-                                   startPoint: .topLeading,
-                                   endPoint: .bottomTrailing)
-                    .ignoresSafeArea()
-                    ScrollView {
-                        GameSelectionView()
-                        Spacer()
-                        if gameState.selectedGame != nil {
-                            
+        NavigationView {
+            ZStack {
+                LinearGradient(gradient: Gradient(colors: [Color("EveningNightLight"), Color("EveningNightBlue")]),
+                               startPoint: .topLeading,
+                               endPoint: .bottomTrailing)
+                .ignoresSafeArea()
+                VStack {
+                    GameSelectionView()
+                    
+                    PlayerListView()
+                    Spacer()
+                    if gameState.selectedGame != nil && gameState.checkIfEnoughPlayers() {
+                        NavigationLink(destination: ClassicDartsView()) {
+                            Text("Play \(gameState.selectedGame!.name)")
+                                .foregroundColor(.white)
+                                .padding()
+                        }
+                        .buttonStyle(.bordered)
+                    }
+                }
+                .navigationTitle("Spiele")
+                .toolbar {
+                    ToolbarItem(placement: .navigationBarTrailing) {
+                        Button(action: {addPlayerSheetPresent = true}) {
+                            Image(systemName: "person.3.fill")
+                                .padding(.horizontal)
                         }
                     }
                     
-                    .navigationTitle("Spiele")
                 }
+                .tint(.black)
+            }
+            .sheet(isPresented: $addPlayerSheetPresent) {
+                PlayerSelectionView()
             }
         }
-        
     }
 }
 
