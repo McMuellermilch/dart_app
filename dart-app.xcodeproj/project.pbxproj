@@ -7,18 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		28900FE8295335A300080243 /* GameStateModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28900FE7295335A300080243 /* GameStateModel.swift */; };
+		28900FEC295341F100080243 /* PlayerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28900FEB295341F100080243 /* PlayerModel.swift */; };
+		28900FEE2953423C00080243 /* GameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28900FED2953423C00080243 /* GameModel.swift */; };
+		28900FF02953463400080243 /* GameSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28900FEF2953463400080243 /* GameSelectionView.swift */; };
+		28900FF22953468B00080243 /* PlayerSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28900FF12953468B00080243 /* PlayerSelectionView.swift */; };
+		28900FF4295346E400080243 /* PlayerInList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28900FF3295346E400080243 /* PlayerInList.swift */; };
+		28900FF72953473F00080243 /* IsEmptyModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28900FF62953473F00080243 /* IsEmptyModifier.swift */; };
 		289BDC8E28843FBB00EFECC9 /* dart_appApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289BDC8D28843FBB00EFECC9 /* dart_appApp.swift */; };
 		289BDC9028843FBB00EFECC9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289BDC8F28843FBB00EFECC9 /* ContentView.swift */; };
 		289BDC9228843FBC00EFECC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 289BDC9128843FBC00EFECC9 /* Assets.xcassets */; };
 		289BDC9528843FBC00EFECC9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 289BDC9428843FBC00EFECC9 /* Preview Assets.xcassets */; };
+		289BDC9C2884401000EFECC9 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289BDC9B2884401000EFECC9 /* HomeView.swift */; };
+		289BDC9F2884410E00EFECC9 /* GameCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289BDC9E2884410E00EFECC9 /* GameCard.swift */; };
+		289BDCA52885DF3500EFECC9 /* FriendModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289BDCA42885DF3500EFECC9 /* FriendModel.swift */; };
+		289BDCA72885FDCB00EFECC9 /* FriendAvatar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289BDCA62885FDCB00EFECC9 /* FriendAvatar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		28900FE7295335A300080243 /* GameStateModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameStateModel.swift; sourceTree = "<group>"; };
+		28900FEB295341F100080243 /* PlayerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerModel.swift; sourceTree = "<group>"; };
+		28900FED2953423C00080243 /* GameModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameModel.swift; sourceTree = "<group>"; };
+		28900FEF2953463400080243 /* GameSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSelectionView.swift; sourceTree = "<group>"; };
+		28900FF12953468B00080243 /* PlayerSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerSelectionView.swift; sourceTree = "<group>"; };
+		28900FF3295346E400080243 /* PlayerInList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerInList.swift; sourceTree = "<group>"; };
+		28900FF62953473F00080243 /* IsEmptyModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsEmptyModifier.swift; sourceTree = "<group>"; };
 		289BDC8A28843FBB00EFECC9 /* dart-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "dart-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		289BDC8D28843FBB00EFECC9 /* dart_appApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dart_appApp.swift; sourceTree = "<group>"; };
 		289BDC8F28843FBB00EFECC9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		289BDC9128843FBC00EFECC9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		289BDC9428843FBC00EFECC9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		289BDC9B2884401000EFECC9 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		289BDC9E2884410E00EFECC9 /* GameCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameCard.swift; sourceTree = "<group>"; };
+		289BDCA42885DF3500EFECC9 /* FriendModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendModel.swift; sourceTree = "<group>"; };
+		289BDCA62885FDCB00EFECC9 /* FriendAvatar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendAvatar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +54,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		28900FE5295334CB00080243 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				289BDC9E2884410E00EFECC9 /* GameCard.swift */,
+				289BDCA42885DF3500EFECC9 /* FriendModel.swift */,
+				289BDCA62885FDCB00EFECC9 /* FriendAvatar.swift */,
+				28900FF3295346E400080243 /* PlayerInList.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		28900FE62953359300080243 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				28900FE7295335A300080243 /* GameStateModel.swift */,
+				28900FEB295341F100080243 /* PlayerModel.swift */,
+				28900FED2953423C00080243 /* GameModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		28900FF52953471300080243 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				28900FF62953473F00080243 /* IsEmptyModifier.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 		289BDC8128843FBB00EFECC9 = {
 			isa = PBXGroup;
 			children = (
@@ -51,6 +102,10 @@
 		289BDC8C28843FBB00EFECC9 /* dart-app */ = {
 			isa = PBXGroup;
 			children = (
+				28900FF52953471300080243 /* Utils */,
+				28900FE62953359300080243 /* Models */,
+				28900FE5295334CB00080243 /* Components */,
+				289BDC9D2884405900EFECC9 /* Views */,
 				289BDC8D28843FBB00EFECC9 /* dart_appApp.swift */,
 				289BDC8F28843FBB00EFECC9 /* ContentView.swift */,
 				289BDC9128843FBC00EFECC9 /* Assets.xcassets */,
@@ -65,6 +120,16 @@
 				289BDC9428843FBC00EFECC9 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		289BDC9D2884405900EFECC9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				28900FEF2953463400080243 /* GameSelectionView.swift */,
+				289BDC9B2884401000EFECC9 /* HomeView.swift */,
+				28900FF12953468B00080243 /* PlayerSelectionView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +202,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28900FEC295341F100080243 /* PlayerModel.swift in Sources */,
+				289BDC9C2884401000EFECC9 /* HomeView.swift in Sources */,
+				28900FF72953473F00080243 /* IsEmptyModifier.swift in Sources */,
+				289BDCA52885DF3500EFECC9 /* FriendModel.swift in Sources */,
+				28900FF02953463400080243 /* GameSelectionView.swift in Sources */,
+				28900FF22953468B00080243 /* PlayerSelectionView.swift in Sources */,
+				289BDCA72885FDCB00EFECC9 /* FriendAvatar.swift in Sources */,
+				289BDC9F2884410E00EFECC9 /* GameCard.swift in Sources */,
+				28900FE8295335A300080243 /* GameStateModel.swift in Sources */,
 				289BDC9028843FBB00EFECC9 /* ContentView.swift in Sources */,
+				28900FF4295346E400080243 /* PlayerInList.swift in Sources */,
 				289BDC8E28843FBB00EFECC9 /* dart_appApp.swift in Sources */,
+				28900FEE2953423C00080243 /* GameModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +351,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,6 +381,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
