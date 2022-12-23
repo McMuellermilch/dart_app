@@ -26,7 +26,7 @@ struct HomeView: View {
                     PlayerListView()
                     Spacer()
                     if gameState.selectedGame != nil && gameState.checkIfEnoughPlayers() {
-                        NavigationLink(destination: ClassicDartsView()) {
+                        NavigationLink(destination: ClassicDartsView().environmentObject(DartsGameModel(players: gameState.players,initialPoints: Int(gameState.selectedGame!.name)!))) {
                             Text("Play \(gameState.selectedGame!.name)")
                                 .foregroundColor(.white)
                                 .padding()

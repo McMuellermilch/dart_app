@@ -22,7 +22,7 @@ class GameStateModel: ObservableObject {
     }
     
     func addPlayer(name: String, initialPoints: Int) {
-        players.append(PlayerModel(name: name, points: initialPoints))
+        players.append(PlayerModel(name: name))
     }
     
     func selectGame(game: GameModel) {

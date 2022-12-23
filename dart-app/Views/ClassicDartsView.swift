@@ -9,12 +9,22 @@ import SwiftUI
 
 struct ClassicDartsView: View {
     @Environment(\.dismiss) var dismiss
+    @EnvironmentObject var dartGameState: DartsGameModel
+    
+    
     @State var showSettingsSheet: Bool = false
     @State var showAlert: Bool = false
     
     var body: some View {
         VStack {
-            
+            Text(dartGameState.activePlayer.name)
+            Text("\(dartGameState.activePlayer.points != nil ? String(dartGameState.activePlayer.points!) : "")")
+                .font(.largeTitle)
+            Spacer()
+            ClassicDartKeyboardView()
+        }
+        .onAppear {
+            dartGameState.initPlayers()
         }
         .navigationBarBackButtonHidden(true)
         .toolbar {
@@ -47,6 +57,8 @@ struct ClassicDartsView: View {
             Text("Settings")
                 .font(.title)
         }
+        .ignoresSafeArea(.all, edges: .bottom)
+        
     }
 }
 
